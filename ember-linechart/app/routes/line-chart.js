@@ -8,9 +8,9 @@ export default Route.extend({
    var self=this;
    self.lineChart={type: 'line', 
                            labels:[],datasets:[{data:[],label:"USD Rate",
-                    borderWidth: 1,  fill:false, radius: 0,backgroundColor:'rgb(255, 99, 132)', borderColor:'rgb(255, 99, 132)'}
-                    ,{data:[],label:"CAD Rate", borderWidth: 1,  fill:false, radius: 0,backgroundColor:'rgb(54, 162, 235)', borderColor:'rgb(54, 162, 235)'}
-                      ,{data:[],label:"EUR Rate", borderWidth: 1,fill:false, radius: 0,backgroundColor:'rgb(255, 205, 86)', borderColor:'rgb(255, 205, 86)'}]
+                    borderWidth: 1,  fill:false, radius: 5,backgroundColor:'rgb(255, 99, 132)', borderColor:'rgb(255, 99, 132)'}
+                    ,{data:[],label:"CAD Rate", borderWidth: 1,  fill:false, radius:5,backgroundColor:'rgb(54, 162, 235)', borderColor:'rgb(54, 162, 235)'}
+                      ,{data:[],label:"EUR Rate", borderWidth: 1,fill:false, radius: 5,backgroundColor:'rgb(255, 205, 86)', borderColor:'rgb(255, 205, 86)'}]
                   
                   ,
               options: {
